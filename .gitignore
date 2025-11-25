@@ -1,0 +1,50 @@
+# -----------------------------
+# Python / Jupyter .gitignore
+# -----------------------------
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# VS Code project settings
+.vscode/
+
+# JetBrains (PyCharm) settings
+.idea/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Local Jupyter runtime files
+.jupyter/
+.local/
+
+# Byte-compiled / optimized files
+*.python-version
+
+# Logs
+*.log
+
+# Build and distribution folders
+build/
+dist/
+*.egg-info/
+
+# Temporary data files (optional)
+data/*.csv
+data/*.xlsx
+data/*.json
+*.tmp
+*.temp
